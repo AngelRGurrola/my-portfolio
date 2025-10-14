@@ -1,0 +1,138 @@
+html,
+body {
+    height: 100%;
+    /* Ensure html and body take full height */
+    margin: 0;
+    /* Remove default margins */
+    padding: 0;
+    /* Remove default padding */
+
+    /* Prevent scrollbars if content overflows */
+}
+
+.nav-bar {
+    background-color:#25433c;
+    border-bottom: solid #e4ffc9 1px;
+}
+
+p {
+    color: white;
+}
+
+.hero {
+    background-color: #25433c;
+    margin: 5%;
+    border: solid black 4px;
+    border-left: 0;
+    border-top: 0;
+    border-radius: 20px;
+}
+
+.intro-text {
+    color: white;
+}
+
+.btn {
+    margin-top: 20px;
+    background-color: #e4ffc9;
+    color: #25433c;
+    border: solid black 4px;
+    border-left: 0;
+    border-top: 0;
+}
+
+.img-angel {
+    border-radius: 20px;
+    border: solid black 4px;
+    border-left: 0;
+    border-top: 0;
+}
+
+
+.projects, .aboutme {
+    background-color: #25433c;
+    margin: 5%;
+    border: solid black 4px;
+    border-left: 0;
+    border-top: 0;
+    border-radius: 20px;
+}
+
+.featurette {
+    padding: 5%
+}
+
+.featurette-heading, h3 {
+    color: #e4ffc9;
+}
+
+
+.vcb-img {
+    height: 60vh;  
+    object-fit: cover;
+    border-radius: 20px;
+    border: solid black 4px;
+    border-left: 0;
+    border-top: 0;
+}
+
+.carousel-caption {
+    background-color: rgba(37, 67, 60, 0.5);
+    color: #e4ffc9;
+    border-radius: 15px;
+}
+
+.lead {
+    color: white;
+}
+
+.stack-logo {
+    width: 60px;
+    height: auto;
+    border-radius: 10%;
+    border: solid black 3px;
+    border-left: 0;
+    border-top: 0;
+    align-self: start;
+}
+
+.aboutme-logo {
+    border: solid black 3px;
+    border-left: 0;
+    border-top: 0;
+    align-self: start;
+}
+
+.stack-section {
+    display: flex;
+    align-items: center;
+    /* vertically centers the text next to the image */
+    gap: 1rem;
+    /* space between image and text */
+    margin-top: 10%;
+}
+
+.scrolling-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-image: url('../assets/images/forest.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    animation: infiniteScroll 60s linear infinite;
+}
+
+@keyframes infiniteScroll {
+    from {
+        background-position: 0 0;
+        /* Start at the top */
+    }
+
+    to {
+        background-position: 0 100%;
+        /* Scroll down one full image height */
+    }
+}

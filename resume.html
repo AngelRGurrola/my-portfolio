@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <style>
+        .resume-content {
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-weight: 900;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 15px;
+        }
+
+        h5 {
+            text-align: center;
+            font-weight: 100;
+        }
+
+        .hr-resume {
+            border: none;
+            background-color: black;
+            height: 4px;
+            margin-top: 0;
+        }
+
+        p {
+            color: black;
+        }
+
+        @media (min-width: 1600px) {
+            .resume-content {
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+        }
+
+        body {
+            position: relative;
+        }
+
+        .nav-link.active {
+            color: #e4ffc9 !important;
+            /* highlight color */
+            font-weight: 900;
+            background-color: #25433c !important;
+        }
+
+        .nav-link:hover,
+        .nav-link:focus {
+            color: #e4ffc9 !important;
+            /* keep same color on hover */
+            background-color: #25433c !important;
+            /* optional hover background */
+        }
+
+        .nav-link {
+            transition: color 0.7s ease;
+            color: white;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <body data-bs-spy="scroll" data-bs-target=".nav-bar" data-bs-offset="80" tabindex="0">
+
+    <section class="nav-bar fixed-top">
+        <div class="container">
+            <header class="d-flex justify-content-center py-2">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="index.html#home-section" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="./resume.html" class="nav-link active">Resume</a></li>
+                    <li class="nav-item"><a href="index.html#project-section" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="index.html#aboutme-section" class="nav-link">About Me</a></li>
+                </ul>
+            </header>
+        </div>
+    </section>
+
+    <section class="resume-content">
+        <h1>Angel Raymundo Gurrola</h1>
+        <h5>(323)-555-5555 | ###@gmail.com | LinkedIn | Github</h5>
+
+
+
+        <h2>Education</h2>
+        <hr class="hr-resume" />
+        <h4 style="text-align: left;">University of California Merced | Merced, CA<span
+                style="float: right; font-size: 22px; font-weight: 500;">May
+                2025</span></h4>
+        <p style="font-size: 18px; font-weight: 900; font-style: italic;">Bachelor's of Science in Computer Science and
+            Engineering</p>
+        <ul>
+            <li><span style="font-weight: 900;">Major Related Courses:</span> Data Structure / Computer Organization and
+                Assembly Language /
+                Algorithm Design and Analysis / Object Oriented Programming / Computer Vision / Databases /
+                Full-Stack Development / Human Computer Interaction / Software Engineering
+            </li>
+        </ul>
+        <h4 style="text-align: left;">Elizabeth Learning Center | Cudahy, CA<span
+                style="float: right; font-size: 22px; font-weight: 500;">June 2018</span></h4>
+        <p style="font-size: 18px; font-weight: 900; font-style: italic;">High School Diploma</p>
+        <ul>
+            <li>Information Technology Academy Certificate</li>
+            <li>California Seal of Biliteracy</li>
+        </ul>
+
+
+        <h2>Skills</h2>
+        <hr class="hr-resume" />
+        <h4>Coding: <span style="font-weight: 400; font-size: 18px; ">JavaScript, HTML, CSS, C/C++, C#, Python,
+                SQL</span></h4>
+        <h4 style="padding-bottom:15px;">Framework and tools: <span style="font-weight: 400; font-size: 18px;">Flask,
+                SQLAlchemy, React, Node, PostgreSQL, MissionPlanner, ArduPilot</span></h4>
+
+        <h2>Experience</h2>
+        <hr class="hr-resume" />
+        <h4>Drones For Hire | Modesto, CA<span style="float: right; font-size: 22px; font-weight: 500;">May 2023 - April
+                2024</span></h4>
+        <p style="font-size: 18px; font-style: italic;">Project Engineer Intern</p>
+        <ul>
+            <li>Aquatic Drone Mapper
+                <ul>
+                    <li>
+                        With no prior experience I built an aquatic drone that was operated remotely.
+                        The propulsion style used was a skid steer for maneuvering the drone to collect sonar and gps
+                        coordinate data.
+                        for 3D map making of lake beds. Attached a camera on the drone to stream and record footage with
+                        the
+                        transmitter as well.
+                    </li>
+                </ul>
+            </li>
+            <li>Omnidirectional Thruster System
+                <ul>
+                    <li>
+                        I built a remotely operated omnidirectional thruster system for a 20ft x 10ft boat.
+                        On the same transmitter I programed 2 buttons to activate actuators on the boat that are
+                        responsible
+                        to lift and drop a large panel of UV lights for the bioremdiation of algea on the bed of lakes.
+                        I
+                        met with the company's client
+                        to meet their needs for this project.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h4>UC Merced Dinning Services | Merced, CA<span style="float: right; font-size: 22px; font-weight: 500;">April
+                2023 - August 2024</span></h4>
+        <p style="font-size: 18px; font-style: italic;">Dinning Associate - Student Worker</p>
+        <ul>
+            <li>Helped in the operations to keep the dinning facilities open and at full operation.</li>
+            <li>Server, Custodial, Dishwasher, Prep-cook, Deli, Busser, Cashier, Recieving</li>
+        </ul>
+        <h4>Tary Boscolo's Pizzeria and Resturant | Atwater, CA <span
+                style="float: right; font-size: 22px; font-weight: 500;">October 2024 - Present</span></h4>
+        <p style="font-size: 18px; font-style: italic;">Pizza Maker</p>
+        <ul>
+            <li>Maintain and Manage the pizza station.</li>
+            <li>Make the best pizzas in town.</li>
+            <li>Make dough from scratch </li>
+        </ul>
+    </section>
+    <hr />
+
+    <footer>
+        <p style="text-align: center;">© 2025 Angel Gurrola</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
