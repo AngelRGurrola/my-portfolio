@@ -35,8 +35,15 @@
             transition: color 0.7s ease;
             color: white;
         }
-
-
+        
+        .btn:hover,
+        .btn-link:focus{
+            color: #e4ffc9 !important;
+            /* keep same color on hover */
+            background-color: #25433c !important;
+            /* optional hover background */
+        }
+        
         .img-aboutme-container {
             padding-left: 10%;
             padding-right: 10%;
@@ -79,7 +86,7 @@
                         opportunities in an
                         entry-level position. I look forward to learning new things every day and I enjoy applying my
                         solutions to difficult problems.</p>
-                    <button type="button" class="btn btn-lg">Contact Me</button>
+                    <a href="#ContactMe"><button type="button" class="btn btn-lg">Contact Me</button></a>
                 </div>
             </div>
         </div>
@@ -701,5 +708,6 @@
 
 
 </html>
+
 
 
