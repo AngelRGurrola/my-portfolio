@@ -114,6 +114,13 @@ p {
     align-self: start;
 }
 
+.img-CM {
+    border-radius: 20%;
+    border: solid black 3px;
+    border-left: 0;
+    border-top: 0;
+}
+
 .stack-section {
     display: flex;
     align-items: center;
@@ -146,4 +153,5 @@ p {
         background-position: 0 100%;
         /* Scroll down one full image height */
     }
+
 }
