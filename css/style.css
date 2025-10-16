@@ -15,7 +15,10 @@ body {
     border-bottom: solid #e4ffc9 1px;
 }
 
-
+.footer-section {
+    background-color: #25433c;
+    border-top: solid #e4ffc9 1px;
+}
 
 p {
     color: white;
@@ -155,3 +158,4 @@ p {
     }
 
 }
+
